@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+
+  <head>
+    <link rel="stylesheet" href="index-style.css">
+    <title>LIM</title>
+  </head>
+
+  <body>
+    <!-- gestione cornice -->
+    <div class="frame">
+
+      <!-- gestione contenuto cornice -->
+      <div class="page">
+
+        <!-- font utilizzato per la pagina -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+        <!-- logo e nome azienda -->
+        <header>
+          <img class="logo" src="logo.png">
+          <div class="title">
+            <span>Trasportiamo persone rispettando l'ambiente</span>
+          </div>
+        </header>
+
+        <!-- comandi prenotazione e luci -->
+        <nav class="commands">
+          <input type="submit" name="prenotazione" value="Prenota">
+          <input type="submit" name="termine prenotazione" value="Termina Prenotazione">
+          <input type="submit" name="luci" value="Accendi luci">
+        </nav>
+
+        <!-- gestione monopattini -->
+        <main>
+          <div class="monopattino">
+            <input type="radio" name="monopattino">
+            <span>Monopattino NewLine</span>
+              <div class="posizione">
+                <span class="indirizzo">Via Roma 15 - <em>a 200 metri da te</em></span>
+                <span>Stato Carica:</span>
+                <span id="carica1"></span>
+              </div>
+          </div>
+          <div class="monopattino">
+            <input type="radio" name="monopattino">
+            <span>Monopattino SpeedRacer</span>
+              <div class="posizione">
+                <span class="indirizzo">Via Giulio Cesare 58 - <em>a 420 metri da te</em></span>
+                <span>Stato Carica:</span>
+                <span id="carica2"></span>
+              </div>
+          </div>
+          <div class="monopattino">
+            <input type="radio" name="monopattino">
+            <span>Monopattino Thunder</span>
+              <div class="posizione">
+                <span class="indirizzo">Via Ottaviano Augusto 32 - <em>a 132 metri da te</em></span>
+                <span>Stato Carica:</span>
+                <span id="carica3"></span>
+              </div>
+          </div>
+        </main>
+
+      </div>
+
+    </div>
+
+    <footer><strong>LIM</strong> made by Francesco Gatto</footer>
+
+  </body>
+
+</html>
